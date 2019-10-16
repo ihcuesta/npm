@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+button {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* NAV */
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 15px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.top-links {
+  display: inline-block;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+/* HEADER SUBMENU */
+header {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#245979+17,20668a+100 */
+background: #245979; /* Old browsers */
+background: -moz-linear-gradient(top,  #245979 17%, #20668a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #245979 17%,#20668a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #245979 17%,#20668a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#245979', endColorstr='#20668a',GradientType=0 ); /* IE6-9 */
+
+
+  /* background-color: rgb(32, 101, 136); */
+}
+
+.search-login {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  height: 30px;
+  padding: 10px;
+}
+
+.search-login img {
+  width: 90px;
+  height: 40px;
+}
+
+.search {
+  
+  max-width: 2000px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.login {
+  
+  width: 230px;
+  
+}
+
+.search-bar {
+  height: 30px;
+  max-width: 2000px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.search-bar input {
+  max-width: 2000px;
+  width: 100%;
+  margin-left: 10px;
+  height: 100%;
+  border: 1px solid #999;
+  background-color: rgb(31, 82, 111);
+  padding-left: 10px;
+  color: #fff;
+  font-size: 16px;
+   
+}
+
+.search-bar input::placeholder {
+  opacity: 0.8;
+  color: #999;
+}
+
+.search-bar button {
+  background-color: rgb(31, 82, 111);
+  
+  margin-left: -3px;
+  border: 1px solid #999;
+  padding: 6px 9px;
+  margin-bottom: -4px;
+  cursor: pointer;
+}
+
+.fa-search {
+  color: #FFF;
+  font-size: 16px !important;
+}
+
+.login ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
+  float: right;
+  padding-right: 20px;
+  padding-inline-start: 10px;
+}
+
+.login ul li {
+  display: inline-block;
+  color: #FFF;
+  
+}
+
+.login ul li img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.login ul li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.login ul li a:hover {
+  text-decoration: underline;
+}
+
+/* HEADER 'BUILD' TEXT */
+.build {
+  
+  width: 900px;
+  
+  color: #FFF;
+  margin: 80px auto 32px;
+}
+
+.build img {
+  margin-top: -82px;
+  float: right;
+  right: 0px;
+  width: 500px;
+  height: 100%;
+  transform: scale(2.0);
+}
+
+.build h1 {
+  
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+.build p {
+  position: relative;
+  z-index: 10000;
+  width: 500px;
+  line-height: 22px;
+}
+
+.rounded {
+  margin-top: 30px;
+  color: #FFF;
+  
+  -webkit-border-radius: 20px;
+border-radius: 20px;
+border: 0px;
+padding: 10px 20px;
+}
+
+.build button {
+  background-color: rgb(240, 146, 51);
+}
+
+.road {
+  height: 80px;
+  width: 100%;
+  background-color: #1B4C6A;
+}
+
+.road-lines {
+  width: 100%;
+  height: 11px;
+  border-bottom: dashed 1.5px rgb(32, 101, 136) ;
+}
+
+/* COLLABORATION SECTION */
+.collaboration {
+  background-color: rgb(39, 53, 71);
+  padding: 50px 0px;
+}
+
+.container-col {
+  width: 900px;
+  margin: auto;
+
+}
+
+.container-col img {
+width: 450px;
+height: auto;
+}
+
+.content-col {
+  float: right;
+  width: 350px;
+  color: #FFF;
+  padding-top: 30px;
+}
+
+.content-col button {
+  background-color: rgb(203, 56, 55);
+}
+
+.content-col ul {
+  margin-top: 25px;
+}
+
+.content-col ul li {
+  font-size: 12px;
+}
+
+.content-col p {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.content-col a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFF;
+}
+
+/* WHAT */
+.what {
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+
+  padding: 50px 0px 300px;
+  
+}
+
+.content-what {
+width: 300px;
+position: relative;
+top: 30px;
+left: 200px;
+color: #FFF;
+}
+
+.content-what p {
+  margin-top: 20px;
+  line-height: 22px;
+  }
+
+.content-what button {
+  background-color: rgb(49, 68, 88);
+}
+
+/* MAKE */
+.make {
+padding: 100px 0px;
+}
+
+.make-heading {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.make-heading h2 {
+  color: rgb(83, 88, 98);
+}
+
+.make-heading p {
+  color:rgb(135, 145, 156);
+  margin-top: 20px;
+}
+
+.make-blocks {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.block {
+  width: 33.33%;
+  text-align: center;
+  padding: 0px 20px;
+  
+}
+
+.block h3 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: rgb(83, 88, 98);
+}
+
+.block p {
+  color:rgb(135, 145, 156);
+}
+
+.block a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
